@@ -1,3 +1,1 @@
-export const testServices = () => {
-	console.log(testServices);
-};
+export { get_movie } from "./api";
