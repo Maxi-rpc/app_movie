@@ -1,7 +1,7 @@
 // material ui
 import Grid from "@mui/material/Grid";
 // project
-import { Banner, BoxContainer } from "@/components";
+import { Banner } from "@/components";
 import { gridSpacing } from "@/utils";
 
 // home
@@ -12,8 +12,9 @@ export default function Home() {
 				<Grid item xs={12} md={12} lg={12} textAlign="center">
 					<Banner></Banner>
 				</Grid>
+				{/* Trending */}
 				<Grid item xs={12} md={12} lg={12} textAlign="center">
-					<BoxContainer></BoxContainer>
+					<h1>tranding</h1>
 				</Grid>
 			</Grid>
 		</>

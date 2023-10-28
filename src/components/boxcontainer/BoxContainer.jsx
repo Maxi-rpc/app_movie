@@ -1,14 +1,16 @@
 // material ui
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
+// project
+import { minHeight_container } from "@/utils";
 
 // boxcontainer
-export const BoxContainer = () => {
+export const BoxContainer = ({ children }) => {
 	return (
 		<>
-			<Container>
-				<Box sx={{ bgcolor: "#cfe8fc", minHeight: "250px" }}>
-					<h1>box</h1>
+			<Container maxWidth="xl" disableGutters>
+				<Box sx={{ bgcolor: "#cfe8fc", minHeight: minHeight_container }}>
+					{children}
 				</Box>
 			</Container>
 		</>
