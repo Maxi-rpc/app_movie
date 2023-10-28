@@ -1,3 +1,1 @@
-export const testComponents = () => {
-	console.log(testComponents);
-};
+export { HeaderMain, ContainerMain, FooterMain } from "./layout";
