@@ -12,7 +12,7 @@ import { gridSpacing } from "@/utils";
 export const Banner = () => {
 	return (
 		<>
-			<Card>
+			<Card sx={{ minHeight: "200px" }}>
 				<CardContent>
 					<Typography
 						variant="h1"
