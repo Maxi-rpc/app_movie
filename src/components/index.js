@@ -1,1 +1,1 @@
-export { HeaderMain, ContainerMain } from "./layout";
+export { HeaderMain, ContainerMain, FooterMain } from "./layout";
