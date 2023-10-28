@@ -1,1 +1,1 @@
-export { BoxContainer } from "./Boxcontainer";
+export { BoxContainer } from "./BoxContainer.jsx";

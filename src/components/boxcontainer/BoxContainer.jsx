@@ -6,8 +6,10 @@ import Container from "@mui/material/Container";
 export const BoxContainer = () => {
 	return (
 		<>
-			<Container maxWidth="false">
-				<Box sx={{ bgcolor: "#cfe8fc", height: "100px" }} />
+			<Container>
+				<Box sx={{ bgcolor: "#cfe8fc", minHeight: "250px" }}>
+					<h1>box</h1>
+				</Box>
 			</Container>
 		</>
 	);
